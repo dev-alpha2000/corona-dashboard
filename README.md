@@ -1,15 +1,24 @@
 A COVID-19 tracking dashboard built with React JS.
 
-Getting Started
-Prerequisites
+
+## Getting Started
+
+## Prerequisites
 Node.js (version 14 or later)
+
 npm (version 6 or later)
+
 React JS (version 17 or later)
-Installation
+
+## Installation
+
 Clone the repository: git clone https://github.com/your-username/corona-dashboard.git
+
 Install dependencies: npm install
+
 Start the development server: npm start
-Features
+
+## Features
 Displays COVID-19 cases data (confirmed, active, recovered, deceased)
 Displays vaccination trends data
 Displays state-wise COVID-19 data
