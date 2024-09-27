@@ -1,68 +1,55 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A COVID-19 tracking dashboard built with React JS.
 
-## Available Scripts
+Getting Started
+Prerequisites
+Node.js (version 14 or later)
+npm (version 6 or later)
+React JS (version 17 or later)
+Installation
+Clone the repository: git clone https://github.com/your-username/corona-dashboard.git
+Install dependencies: npm install
+Start the development server: npm start
+Features
+Displays COVID-19 cases data (confirmed, active, recovered, deceased)
+Displays vaccination trends data
+Displays state-wise COVID-19 data
+Search functionality for states
+Responsive design
+Components
+Header.js
+Displays the app title and navigation links
+Footer.js
+Displays the app footer with social media links and copyright information
+Dashboard.js
+Displays the COVID-19 cases data and vaccination trends data
+Handles state-wise data display
+StateData.js
+Displays state-wise COVID-19 data
+Handles search functionality for states
+API Integration
+The app uses the COVID-19 API for fetching COVID-19 cases data and vaccination trends data.
 
-In the project directory, you can run:
+State Management
+The app uses the useState hook and useEffect hook to manage the state and handle API requests.
 
-### `npm start`
+Code Structure
+src/: Source code directory
+components/: Reusable React components
+Header.js: Header component
+Footer.js: Footer component
+Dashboard.js: Dashboard component
+StateData.js: State data component
+App.js: Main app component
+index.js: Entry point of the app
+public/: Static assets directory
+index.html: HTML file served by the development server
+License
+This project is licensed under the MIT License. See LICENSE for details.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Contributing
+Contributions are welcome! Please open an issue or submit a pull request to contribute to the project.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Acknowledgments
+React JS for the React library
+Create React App for the project template
+COVID-19 API for the API data
