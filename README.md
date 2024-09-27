@@ -69,13 +69,8 @@ App.js: Main app component
 index.js: Entry point of the app
 public/: Static assets directory
 index.html: HTML file served by the development server
-License
-This project is licensed under the MIT License. See LICENSE for details.
 
-Contributing
-Contributions are welcome! Please open an issue or submit a pull request to contribute to the project.
-
-Acknowledgments
+## Acknowledgments
 React JS for the React library
 Create React App for the project template
 COVID-19 API for the API data
