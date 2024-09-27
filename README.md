@@ -19,29 +19,46 @@ Install dependencies: npm install
 Start the development server: npm start
 
 ## Features
+
 Displays COVID-19 cases data (confirmed, active, recovered, deceased)
+
 Displays vaccination trends data
+
 Displays state-wise COVID-19 data
+
 Search functionality for states
+
 Responsive design
-Components
+
+## Components
+
 Header.js
+
 Displays the app title and navigation links
+
 Footer.js
+
 Displays the app footer with social media links and copyright information
+
 Dashboard.js
+
 Displays the COVID-19 cases data and vaccination trends data
+
 Handles state-wise data display
+
 StateData.js
+
 Displays state-wise COVID-19 data
+
 Handles search functionality for states
-API Integration
+
+## API Integration
 The app uses the COVID-19 API for fetching COVID-19 cases data and vaccination trends data.
 
-State Management
+## State Management
 The app uses the useState hook and useEffect hook to manage the state and handle API requests.
 
-Code Structure
+## Code Structure
 src/: Source code directory
 components/: Reusable React components
 Header.js: Header component
